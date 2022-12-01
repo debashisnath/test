@@ -1,0 +1,6 @@
+OM->Address magnmnt api (ROC)
+Address api -> Address mngmnt api
+Address api -> OMF LMS call
+
+QueryServiceAddressBFO
+CustomerAddressHelper - handleLocationManagementQuery

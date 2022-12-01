@@ -1,0 +1,13 @@
+OM->Address magnmnt api (ROC)
+Address api -> Address mngmnt api
+Address api -> OMF LMS call
+
+LMS Call
+QueryServiceAddressBFO
+CustomerAddressHelper -> populateServiceAddress -> handleLocationManagementQuery
+CustomerInfoBFO -> execute -> processAdapterResponse -> populateBFOResponse
+InitiateOrderSubmitController -> retrieveCustomerInfoAndOrders
+
+
+OrderMaxDispatcherServlet -> initializeApp()
+InitializeUtil -> initializeApp()
